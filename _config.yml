@@ -1,44 +1,40 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-first_name: FirstName
-last_name: LastName
-email: yourname@cs.kuleuven.be
+first_name: Arcchit
+last_name: Jain
+email: arcchit.jain@cs.kuleuven.be
 description: > # this means to ignore newlines until "url:"
-  KU Leuven PhD researcher at the DTAI research group.
+  PhD researcher in the DTAI research group at KU Leuven, Belgium.
 footer_text: > # Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   <a href="https://dtai.cs.kuleuven.be/" target="_blank">DTAI</a>.
   <a href="https://www.kuleuven.be/kuleuven/" target="_blank">KU Leuven</a>.
-  
 
 show_news: true
 show_address: true
  
-url:  # the base hostname & protocol for your site
+url: https://people.cs.kuleuven.be/arcchit.jain/ # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
-last_updated: # leave blank if you don't want to display last updated
+last_updated: 19 June 2020 # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
 # KU Leuven integration
 # -----------------------------------------------------------------------------
-ku_leuven_personnel_number: "0XXXXXX"
+ku_leuven_personnel_number: "0116049"
 
 teaching:
 - period: 2017-2019
-  course: Course 1 Name
-  note: A course about XXX
-- period: 2018-2019
-  course: Course 2 name
-  note: A course about XXX
+  course: <a href="https://onderwijsaanbod.kuleuven.be/syllabi/e/H02D2AE.htm" target="_blank">Uncertainty in Artificial Intelligence</a>.
+  note: A course about probabilistic reasoning using Bayesian networks, statistical relational learning, and sampling.
 
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
-github_username: # your GitHub user name
+github_username: arcchitjain # your GitHub user name
 twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
+linkedin_username: arcchitjain # your LinkedIn user name
+scholar_userid: Yk3sqsQAAAAJ # your Google Scholar ID
+orcid_id: 0000-0002-4138-8887 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 
@@ -46,8 +42,6 @@ contact_note: >
   You can reach me on firstname.lastname@cs.kuleuven.be
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
-
-
 
 # -----------------------------------------------------------------------------
 # Collections

@@ -2,9 +2,10 @@
 
   <div class="wrapper">
 
+    
     {% if page.layout != "about" %}
     <span class="site-title">
-        <strong>{{ site.first_name }}</strong> {{ site.last_name }}
+        <a class="page-link" href="{{ site.url }}"> <h2><img src="/assets/img/favicon.ico" alt="Logo" height="20px" width="20px">    <strong>{{ site.first_name }}</strong> {{ site.last_name }}</h2></a>
     </span>
     {% endif %}
 
@@ -22,11 +23,11 @@
 
       <div class="trigger">
         <!-- About -->
-        <a class="page-link" href="{{ site.baseurl | prepend: site.url }}/">about</a>
-
-        <a class="page-link" href="{{ site.ku_leuven_personnel_number | prepend: 'http://lirias.kuleuven.be/cv?Username=u' }}" target="_blank">publications</a>
+        <a class="page-link" href="{{ site.baseurl | prepend: site.url }}/">About</a>
+        <!-- Publications -->
+        <!-- <a class="page-link" href="{{ site.ku_leuven_personnel_number | prepend: 'http://lirias.kuleuven.be/cv?Username=u' }}" target="_blank">Publications</a>-->
         <!-- Projects -->
-        <a class="page-link" href="{{ '/projects/' | prepend: site.baseurl | prepend: site.url }}">projects</a>
+        <!-- <a class="page-link" href="{{ '/projects/' | prepend: site.baseurl | prepend: site.url }}">Projects</a> -->
 
         <!-- Pages -->
         {% for page in site.pages %}
@@ -36,7 +37,7 @@
         {% endfor %}
 
         <!-- CV link -->
-        <!-- <a class="page-link" href="{{ '/assets/pdf/CV.pdf' | prepend: site.baseurl | prepend: site.url }}">vitae</a> -->
+        <a class="page-link" href="{{ '/assets/pdf/CV_v7.pdf' | prepend: site.baseurl | prepend: site.url }}">CV</a>
 
       </div>
     </nav>
