@@ -15,12 +15,12 @@ layout: default
     {{ content }}
   </article>
 
-  {% if page.social %}
-    {% include social.html %}
-  {% endif %}
-
   {% if site.show_news and page.news %}
     {% include news.html %}
+  {% endif %}
+
+  {% if page.social %}
+    {% include social.html %}
   {% endif %}
 
 </div>

@@ -3,19 +3,19 @@
 # -----------------------------------------------------------------------------
 first_name: Arcchit
 last_name: Jain
-email: arcchit.jain@cs.kuleuven.be
+email: arcchit.jain@kuleuven.be
 description: > # this means to ignore newlines until "url:"
   PhD researcher in the DTAI research group at KU Leuven, Belgium.
-footer_text: > # Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  <a href="https://dtai.cs.kuleuven.be/" target="_blank">DTAI</a>.
-  <a href="https://www.kuleuven.be/kuleuven/" target="_blank">KU Leuven</a>.
+footer_text: >
+  <a href="https://goo.gl/maps/N76admgskUNxN6rh7" target="_blank">Departement Computerwetenschappen</a>, Celestijnenlaan 200A, 3001 Leuven, Belgium <br>
+  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
 show_news: true
 show_address: true
  
 url: https://people.cs.kuleuven.be/arcchit.jain/ # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
-last_updated: 19 June 2020 # leave blank if you don't want to display last updated
+last_updated: 21 June 2020 # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
 # KU Leuven integration
@@ -37,9 +37,11 @@ scholar_userid: Yk3sqsQAAAAJ # your Google Scholar ID
 orcid_id: 0000-0002-4138-8887 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
+facebook_username: arcchitjain # your Facebook handle
+instagram_username: jainarcchit # your Instagram handle
 
 contact_note: >
-  You can reach me on firstname.lastname@cs.kuleuven.be
+  You can reach me on firstname.lastname@kuleuven.be
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 

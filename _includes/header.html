@@ -5,7 +5,7 @@
     
     {% if page.layout != "about" %}
     <span class="site-title">
-        <a class="page-link" href="{{ site.url }}"> <h2><img src="/assets/img/favicon.ico" alt="Logo" height="20px" width="20px">    <strong>{{ site.first_name }}</strong> {{ site.last_name }}</h2></a>
+        <a class="page-link" href="{{ site.url }}"> <h2><img src="{{ '/assets/img/favicon.ico' | prepend: site.baseurl | prepend: site.url }}" alt="Logo" height="25px" width="25px">    <strong>{{ site.first_name }}</strong> {{ site.last_name }}</h2></a>
     </span>
     {% endif %}
 
@@ -25,10 +25,9 @@
         <!-- About -->
         <a class="page-link" href="{{ site.baseurl | prepend: site.url }}/">About</a>
         <!-- Publications -->
-        <!-- <a class="page-link" href="{{ site.ku_leuven_personnel_number | prepend: 'http://lirias.kuleuven.be/cv?Username=u' }}" target="_blank">Publications</a>-->
+        <a class="page-link" href="https://scholar.google.com/citations?user=Yk3sqsQAAAAJ" target="_blank">Publications</a>
         <!-- Projects -->
-        <!-- <a class="page-link" href="{{ '/projects/' | prepend: site.baseurl | prepend: site.url }}">Projects</a> -->
-
+        <a class="page-link" href="{{ '/projects/' | prepend: site.baseurl | prepend: site.url }}">Projects</a>
         <!-- Pages -->
         {% for page in site.pages %}
           {% if page.title and page.url != "/" %}
