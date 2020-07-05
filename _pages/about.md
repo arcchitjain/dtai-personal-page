@@ -1,6 +1,7 @@
 ---
 layout: about
 permalink: /
+title: Homepage
 
 profile:
   align: right
@@ -26,6 +27,7 @@ My PhD is themed around '<strong>Logic and Learning in Automating Data Science</
 <br> >> Image Processing, Fractals</p>
 
 #### Past
-I have previously worked on Credit Risk Management at <strong>American Express</strong> for 2 years after graduating with an MSc Integrated degree in Mathematics and Scientific Computing from <strong>Indian Intitute of Technology, Kanpur</strong>, India in 2015.
+I have previously worked on Credit Risk Management at <strong>American Express</strong> for 2 years after completing a Masters degree (MSc Integrated) in [Mathematics and Scientific Computing](http://www.iitk.ac.in/math/) from <strong>Indian Intitute of Technology, Kanpur</strong>, India in 2015.
 
-You can find administrative formation on my <a class="page-link" href="{{ site.ku_leuven_personnel_number | prepend: 'https://www.kuleuven.be/wieiswie/en/person/0' }}">KU Leuven who's who page.</a>
+#### More
+You can further find some administrative information on my <a class="page-link" href="{{ site.ku_leuven_personnel_number | prepend: 'https://www.kuleuven.be/wieiswie/en/person/0' }}">KU Leuven who's who page.</a>

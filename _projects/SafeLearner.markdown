@@ -1,7 +1,7 @@
 ---
 layout: page
 title: SafeLearner
-description: SafeLearner is based on the work, titled as Scalable Rule Learning in Probabilistic Knowledge Bases, by Arcchit Jain, Tal Fredman, Ondrej Kuzelka, Guy Van den Broeck, and Luc De Raedt. The work was accepted and published in the 1st Conference on Automated Knowledge Base Construction (AKBC) 2019 and held at the University of Massachusetts from 20 - 22 May 2019. It's code can be found at <a class="page-link" href="https://github.com/arcchitjain/SafeLearner/tree/AKBC19">https://github.com/arcchitjain/SafeLearner/tree/AKBC19</a>.
+description: SafeLearner is based on the work, titled as Scalable Rule Learning in Probabilistic Knowledge Bases, by Arcchit Jain, Tal Fredman, Ondrej Kuzelka, Guy Van den Broeck, and Luc De Raedt. The work was accepted and published in the 1st Conference on Automated Knowledge Base Construction (AKBC) 2019 and held at the University of Massachusetts from 20 - 22 May 2019. It's code can be found at <a class="page-link" href="https://github.com/arcchitjain/SafeLearner/tree/AKBC19">https://github.com/arcchitjain/SafeLearner</a>.
 img: /assets/img/pattern.png
 # redirect: https://github.com/arcchitjain/SafeLearner/tree/AKBC19
 ---
