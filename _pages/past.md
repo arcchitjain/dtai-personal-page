@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /past/
+permalink: past/
 title: Past
 description:
 ---

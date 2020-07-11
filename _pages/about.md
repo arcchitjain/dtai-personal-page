@@ -11,7 +11,7 @@ news: true
 social: true
 ---
 
-Hi, I am a PhD student with [Prof. Luc De Raedt](https://wms.cs.kuleuven.be/people/lucderaedt/) as part of the [SYNTH Project](https://synth.cs.kuleuven.be) in the research group of [Declarative Languages and Artificial Intelligence (DTAI)](https://dtai.cs.kuleuven.be/) at [KU Leuven](https://www.kuleuven.be/kuleuven/), Belgium.
+Hi, I am a PhD student with [Prof. Luc De Raedt](https://wms.cs.kuleuven.be/people/lucderaedt/) as part of the [SYNTH Project](https://synth.cs.kuleuven.be) on 'Automating Data Science' in the research group of [Declarative Languages and Artificial Intelligence (DTAI)](https://dtai.cs.kuleuven.be/) at [KU Leuven](https://www.kuleuven.be/kuleuven/), Belgium.
 
 My PhD is themed around '<strong>Logic and Learning in Automating Data Science</strong>' with a prime focus on probabilistic logic programming, rule learning, predicate invention and planning.
 

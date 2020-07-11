@@ -1,24 +1,26 @@
 ---
 layout: page
 title: SafeLearner
-description: SafeLearner is based on the work, titled as Scalable Rule Learning in Probabilistic Knowledge Bases, by Arcchit Jain, Tal Fredman, Ondrej Kuzelka, Guy Van den Broeck, and Luc De Raedt. The work was accepted and published in the 1st Conference on Automated Knowledge Base Construction (AKBC) 2019 and held at the University of Massachusetts from 20 - 22 May 2019. It's code can be found at <a class="page-link" href="https://github.com/arcchitjain/SafeLearner/tree/AKBC19">https://github.com/arcchitjain/SafeLearner</a>.
-img: /assets/img/pattern.png
-# redirect: https://github.com/arcchitjain/SafeLearner/tree/AKBC19
+description: SafeLearner is based on the work, titled as Scalable Rule Learning in Probabilistic Knowledge Bases, by Arcchit Jain, Tal Fredman, Ondrej Kuzelka, Guy Van den Broeck, and Luc De Raedt. The work was accepted and published in the 1st Conference on Automated Knowledge Base Construction (AKBC) 2019 and held at the University of Massachusetts from 20 - 22 May 2019. It's code can be found at <a href="https://github.com/arcchitjain/SafeLearner/tree/AKBC19">https://github.com/arcchitjain/SafeLearner</a>.
+img: assets/img/pattern.png
 ---
 
 <div class="img_row">
-    <img class="col one left" src="{{site.url}}/assets/img/akbc_logo_crop.png" alt="" title="AKBC Logo"/>
-    <img class="col two left" src="{{site.url}}/assets/img/Podium_Pic_UMass.jpeg" alt="" title="Presenting SafeLearner at AKBC19"/>
+    <img class="col one left" src="{{site.url}}assets/img/akbc_logo_crop.png" alt="" title="AKBC Logo"/>
+    <img class="col two left" src="{{site.url}}assets/img/Podium_Pic_UMass.jpeg" alt="" title="Presenting SafeLearner at AKBC19"/>
 </div>
 
 ## Motivation
-Knowledge Bases (KBs) are becoming increasingly large, sparse and probabilistic. These KBs are typically used to perform query inferences and rule mining. But their efficacy is only as high as their completeness. Efficiently utilizing incomplete KBs remains a major challenge as the current KB completion techniques either do not take into account the inherent uncertainty associated with each KB tuple or do not scale to large KBs. 
+{: style="text-align: justify" }
+Knowledge Bases (KBs) are becoming increasingly large, sparse and probabilistic. These KBs are typically used to perform query inferences and rule mining. But their efficacy is only as high as their completeness. Efficiently utilizing incomplete KBs remains a major challenge as the current KB completion techniques either do not take into account the inherent uncertainty associated with each KB tuple or do not scale to large KBs.
 
-Probabilistic rule learning not only considers the probability of every KB tuple but also tackles the problem of KB completion in an explainable way. For any given probabilistic KB, it learns probabilistic first-order rules from its relations to identify interesting patterns. But, the current probabilistic rule learning techniques perform grounding to do probabilistic inference for evaluation of candidate rules. It does not scale well to large KBs as the time complexity of inference using grounding is exponential over the size of the KB. In this paper, we present SafeLearner - a scalable solution to probabilistic KB completion that performs probabilistic rule learning using lifted probabilistic inference - as faster approach instead of grounding. 
+{: style="text-align: justify" }
+Probabilistic rule learning not only considers the probability of every KB tuple but also tackles the problem of KB completion in an explainable way. For any given probabilistic KB, it learns probabilistic first-order rules from its relations to identify interesting patterns. But, the current probabilistic rule learning techniques perform grounding to do probabilistic inference for evaluation of candidate rules. It does not scale well to large KBs as the time complexity of inference using grounding is exponential over the size of the KB. In this paper, we present SafeLearner - a scalable solution to probabilistic KB completion that performs probabilistic rule learning using lifted probabilistic inference - as faster approach instead of grounding.
 
 
 ## Impact
 
+{: style="text-align: justify" }
 We proposed a probabilistic rule learning system, named SafeLearner, that supports lifted inference. It first performs structure learning by mining independent deterministic candidate rules using AMIE+ and later executes joint parameter learning over all the rule probabilities. SafeLearner extends ProbFOIL+ by using lifted probabilistic inference (instead of using grounding). Therefore, it scales better than ProbFOIL+. In comparison with AMIE+, it is able to jointly learn probabilistic rules over a probabilistic KB unlike AMIE+ which only learns independent deterministic rules (with confidences) over a deterministic KB. We experimentally show that SafeLearner scales as good as AMIE+ when learning simple rules. Trying to learn complex rules leads to unsafe queries which are not suitable for lifted inference. But lifted inference helps SafeLearner in outperforming ProbFOIL+ which does not scale to NELL Sports Database without the help of a declarative bias.
 
 
