@@ -13,7 +13,7 @@ footer_text: >
 show_news: true
 show_address: true
  
-url: https://people.cs.kuleuven.be/arcchit.jain/ # the base hostname & protocol for your site
+url: https://people.cs.kuleuven.be/~arcchit.jain # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: 21 June 2020 # leave blank if you don't want to display last updated
 
@@ -58,7 +58,7 @@ collections:
     permalink: /news/:path/
   projects:
     output: true
-    permalink: /projects/:path/
+    permalink: arcchit.jain/projects/:path/
 
 news_limit: 5
 

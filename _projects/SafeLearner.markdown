@@ -7,8 +7,8 @@ img: /assets/img/pattern.png
 ---
 
 <div class="img_row">
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/akbc_logo_crop.png" alt="" title="AKBC Logo"/>
-    <img class="col two left" src="{{ site.baseurl }}/assets/img/Podium Pic - UMass.jpeg" alt="" title="Presenting SafeLearner at AKBC19"/>
+    <img class="col one left" src="{{site.url}}/assets/img/akbc_logo_crop.png" alt="" title="AKBC Logo"/>
+    <img class="col two left" src="{{site.url}}/assets/img/Podium_Pic_UMass.jpeg" alt="" title="Presenting SafeLearner at AKBC19"/>
 </div>
 
 ## Motivation
