@@ -5,7 +5,7 @@
     
     {% if page.layout != "about" %}
     <span class="site-title">
-        <a class="page-link" href="{{ site.url }}"> <img src="{{ 'assets/img/favicon.ico' | prepend: site.baseurl | prepend: site.url }}" style="vertical-align:middle" alt="Logo" height="32px" width="32px"> <strong>{{ site.first_name }}</strong> {{ site.last_name }}</a>
+        <a class="page-link" href="{{ site.url }}"> <img src="{{ '/assets/img/favicon.ico' | prepend: site.baseurl }}" style="vertical-align:middle" alt="Logo" height="32px" width="32px"> <strong>{{ site.first_name }}</strong> {{ site.last_name }}</a>
     </span>
     {% endif %}
 
@@ -27,7 +27,7 @@
         <!-- Publications -->
         <a class="page-link" href="https://scholar.google.com/citations?user=Yk3sqsQAAAAJ" target="_blank">Publications</a>
         <!-- Projects -->
-        <a class="page-link" href="{{ 'projects/' | prepend: site.baseurl | prepend: site.url }}">Projects</a>
+        <a class="page-link" href="{{ '/projects/' | prepend: site.baseurl | prepend: site.url }}">Projects</a>
         <!-- Pages -->
         {% for page in site.pages %}
           {% if page.title and page.url != "/" %}
@@ -36,7 +36,7 @@
         {% endfor %}
 
         <!-- CV link -->
-        <a class="page-link" href="{{ 'assets/pdf/CV_v7.pdf' | prepend: site.baseurl | prepend: site.url }}">CV</a>
+        <a class="page-link" href="{{ '/assets/pdf/CV_Arcchit_Jain.pdf' | prepend: site.baseurl | prepend: site.url }}">CV</a>
 
       </div>
     </nav>

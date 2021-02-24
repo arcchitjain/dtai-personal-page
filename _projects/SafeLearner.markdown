@@ -6,11 +6,12 @@ img: assets/img/pattern.png
 ---
 
 <div class="img_row">
-    <img class="col one left" src="{{site.url}}assets/img/akbc_logo_crop.png" alt="" title="AKBC Logo"/>
-    <img class="col two left" src="{{site.url}}assets/img/Podium_Pic_UMass.jpeg" alt="" title="Presenting SafeLearner at AKBC19"/>
+    <img class="col one left" src="{{site.url}}/assets/img/akbc_logo_crop.png" alt="" title="AKBC Logo"/>
+    <img class="col two left" src="{{site.url}}/assets/img/Podium_Pic_UMass.jpeg" alt="" title="Presenting SafeLearner at AKBC19"/>
 </div>
 
 ## Motivation
+
 {: style="text-align: justify" }
 Knowledge Bases (KBs) are becoming increasingly large, sparse and probabilistic. These KBs are typically used to perform query inferences and rule mining. But their efficacy is only as high as their completeness. Efficiently utilizing incomplete KBs remains a major challenge as the current KB completion techniques either do not take into account the inherent uncertainty associated with each KB tuple or do not scale to large KBs.
 

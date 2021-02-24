@@ -3,19 +3,19 @@
 # -----------------------------------------------------------------------------
 first_name: Arcchit
 last_name: Jain
-email: arcchit.jain@kuleuven.be
+email: arcchit.jain@gmail.com
 description: > # this means to ignore newlines until "url:"
-  PhD researcher in the DTAI research group at KU Leuven, Belgium.
+  Ex: PhD Candidate, Artificial Intelligence, KU Leuven ; American Express ; IIT Kanpur
 footer_text: >
-  <a href="https://goo.gl/maps/N76admgskUNxN6rh7" target="_blank">Departement Computerwetenschappen</a>, Celestijnenlaan 200A, 3001 Leuven, Belgium <br>
+  <a href="https://goo.gl/maps/N76admgskUNxN6rh7" target="_blank">94/192, Vijay Path, Mansarovar, Jaipur, India - 302020 <br>
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
 show_news: true
 show_address: true
  
-url: https://people.cs.kuleuven.be/~arcchit.jain/ # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
-last_updated: 11 July 2020 # leave blank if you don't want to display last updated
+last_updated: 24 Feb 2021 # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
 # KU Leuven integration
@@ -55,10 +55,10 @@ collections:
     defaults:
       layout: post
     output: true
-    permalink: /news/:path/
+    permalink: news/:path/
   projects:
     output: true
-    permalink: arcchit.jain/projects/:path/
+    permalink: projects/:path/
 
 news_limit: 5
 

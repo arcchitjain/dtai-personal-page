@@ -8,7 +8,7 @@ description:
   <p>
     <strong>Ph.D. student, Artificial Intelligence</strong> <br>
     DTAI Research group @ KU Leuven, Belgium<br>
-    <em>2018-present</em>
+    <em>2018-2021</em>
   </p>
   <p>
     <strong>Pre-Doctoral student, Artificial Intelligence</strong> <br>
